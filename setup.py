@@ -12,9 +12,9 @@ with open("docs/changelog.rst", "r") as fh:
     long_description += fh.read()
 
 setup(
-    name="senaite.jsonapi",
+    name="valer.jsonapi",
     version=version,
-    description="SENAITE JSON API",
+    description="Valer JSON API",
     long_description=long_description,
     # Get more strings from
     # http://pypi.python.org/pypi?:action=list_classifiers
@@ -26,9 +26,11 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords="",
-    author="RIDING BYTES & NARALABS",
-    author_email="senaite@senaite.com",
-    url="https://github.com/senaite/senaite.jsonapi",
+    
+    author="Valer Group LLC",
+    author_email="valerio.zhang@valer.us",
+    url="https://github.com/valeriozhang/senaite.jsonapi",
+    
     license="GPLv2",
     packages=find_packages("src", exclude=["ez_setup"]),
     package_dir={"": "src"},
@@ -37,7 +39,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "senaite.core",
+        "valer.core",
     ],
     extras_require={
         "test": [
