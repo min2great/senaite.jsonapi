@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.2.3rc2"
+version = "1.2.3rc3"
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -39,7 +39,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "valer.core==1.3.5rc2",
+        "valer.core==1.3.5rc3",
     ],
     extras_require={
         "test": [
